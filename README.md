@@ -27,6 +27,12 @@ train-aeroscapes-with-gluon
             Training and validation splits for data.
 ```
 
+然后放入数语义分析据集的txt文件 | then prepare Segmentation dataset txt
+
+```
+mv Segmentation/ aeroscapes/ImageSets/
+```
+
 2. 运行训练 | run training
 
 ```
@@ -36,6 +42,8 @@ python3 train_fcn.py
 参数调整参考 `train_fcn.py` | params refer `train_fcn.py`
 
 生成模型参数文件路径： `runs/pascal_aug/fcn/default/checkpoint.params` | output weights here 
+
+pretrained params(google drive): https://drive.google.com/file/d/1__mNQFFjCMonBI9tktN80Erx-e6blCSa/view?usp=sharing
 
 ## 检测 | predict
 
