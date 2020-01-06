@@ -2,6 +2,8 @@
 
 无人机视角语义分割数据集 aeroscapes 的训练及预测 | train with drone view  dataset aeroscapes and predict 
 
+quick glance: https://www.youtube.com/watch?v=yYhGy2Akg2o&list=PLM1v95K5B1ntVsYvNJIxgRPppngrO_X4s
+
 ## 环境 | depends on
 
 - mxnet,gluon-cv
