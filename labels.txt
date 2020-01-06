@@ -1,0 +1,13 @@
+__ignore__
+_background_
+person
+bike
+car
+drone
+boat
+animal
+obstacle
+construction
+vegetation
+road
+sky
